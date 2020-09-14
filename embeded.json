@@ -1,0 +1,38 @@
+{
+      "title": "Instagram-bot 1.2.4",
+      "description": "Hola, soy un bot creado por @__han__. Mi proposito es descargar las imagenes de instagram que me envíes, después de haberte enviado dicha imagen la borraré a menos que me lo impidas con el flag persistente `[--q]`. ",
+      "color": 10959161,
+      "fields": [
+        {
+          "name": "¿Cómo interactuar conmigo?",
+          "value": "La sintaxis básica es `ig [-command] (argument) [--flag].`"
+        },
+        {
+          "name": "Ayuda:",
+          "value": "`ig | -h | --h |`",
+          "inline": true
+        },
+        {
+          "name": "Descarga normal:",
+          "value": "`ig | -d | --d | (enlace)`",
+          "inline": true
+        },
+        {
+          "name": "Descarga persistente*:",
+          "value": "`ig | -d | --d | (enlace) [--p]`",
+          "inline": true
+        },
+        {
+          "name": "__Descarga persistente (explicación)*__:",
+          "value": "Sí activas el flag `--q` y tienes los permisos para ejecutarlo podrás hacer que tu imagen se guarde en el server durante máximo 1 mes a partir de su creación. \n\nEsto es una medida de seguridad para evitar la sobrecarga de imágenes en  el servidor donde corre el script."
+        },
+        {
+          "name": "__Problemas al descargar.__",
+          "value": "No todos los enlaces serán posibles de descargar debido a que algunas fotos se encuentran privadas.  En un futuro no muy lejano el puñetas de mi creador implementará el uso de sesiones en instagram para que puedas descargar las fotos de la tipa que solo tu sigues, sí, lo sé, para eso me vas a pinches usar no te hagas."
+        },
+        {
+          "name": "__Funcionalidades futuras.__",
+          "value": "1. Descargar imágenes múltiples de un mismo enlace. \n2. Descargar vídeos de reels e IGTV.\n3. Descargar historias.\n4. Descargar perfiles enteros**.\n5. Descargar las imágenes una unidad drive de google.\n6. Sistema de cooldown para que no te pongas a spammear las fotos a lo wey.\n\n **Los perfiles enteros solo podrán ser descargados directamente a una unidad Drive debido al tamaño tan grande que se podría generar en el almacenamiento del server. Para descargar al drive deberás consultar las futuras guías del bot.**"
+        }
+      ]
+}

@@ -50,4 +50,4 @@ client.on('message', async message => {
 	
 });
 
-client.login(process.env.TOKEN_ACCESS);
+client.login(process.env.TOKEN);
